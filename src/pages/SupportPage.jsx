@@ -3,7 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { Send, CheckCircle } from 'lucide-react';
 
 const SupportPage = () => {
-    const [state, handleSubmit] = useForm("mvzbpnry");
+    const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID);
 
     const handleReset = () => {
         // Basic way to reset: reload page or we could try to implement a reset with the hook if needed.
