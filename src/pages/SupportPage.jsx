@@ -117,10 +117,6 @@ const SupportPage = () => {
                     </button>
                 </form>
             </div>
-
-            <div className="text-center" style={{ marginTop: '2rem', fontSize: '0.875rem', color: 'var(--text-gray)' }}>
-                <p>You can also email us directly at <a href="mailto:support@prpulse.com" className="btn-link" style={{ textDecoration: 'none' }}>support@prpulse.com</a></p>
-            </div>
         </div>
     );
 };
